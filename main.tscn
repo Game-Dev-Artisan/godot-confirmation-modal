@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://batebvahnpts8"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_6880r"]
+[ext_resource type="PackedScene" uid="uid://r6ul4ft3vkai" path="res://confirmation_modal.tscn" id="2_u0igr"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_6880r")
+
+[node name="ConfirmationModal" parent="." instance=ExtResource("2_u0igr")]
+visible = false
